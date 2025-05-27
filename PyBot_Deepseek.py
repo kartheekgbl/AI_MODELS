@@ -12,7 +12,7 @@ client = OpenAI(
 
 # Streamlit page config
 st.set_page_config(page_title="GPT Chatbot", layout="centered")
-st.title("🤖 GPT Chatbot")
+st.title("🤖 Karna GPT")
 
 # Initialize chat history
 if "messages" not in st.session_state:
